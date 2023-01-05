@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/backg"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="40dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/aflaglogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/AppTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Medical Products Delivery App"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/l0g1n8tn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/blue"
+            android:padding="8dp"
+            android:text="login"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/regi5ter8tn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/orange"
+            android:padding="8dp"
+            android:text="register"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/sk1p8tn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/orange"
+            android:text="SKIp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
